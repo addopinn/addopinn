@@ -1,30 +1,184 @@
 <!doctype html>
 <html lang="ko">
-<title>김승원 팬 페이지</title>
-<body>
-    <span style=" font: italic bold 1.5em/1em Georgia, serif ; color: gray;">
-        "안녕하세요<br>저는 공항중 얼굴을 담당하고있는 2학년 3반 김승원이라고해요<br>저는 주로 롤을하고요 여자친구가 있었는데 없어졌어요<br>너무 슬프고 우울합니다<br>너무 또라이같네요 죄송합니다 그만할게요<br>현타옵니다<br>드라마 보시는거 재밌게 보세요<br>안녕"</span>
-    <p>안녕하세요! 여기는 김승원 팬 페이지입니다!</p>
-    <hr color="pink" size="10px">
-    <img src="pictures/1.jpg" width="300" alt="브이" title="브이">
-    <p>브이하는 승원이</p>
-    <hr color="pink" size="10px">
-    <img src="pictures/2.jpg" width="300" alt="하트" title="하트">
-    <p>하트하는 승원이</p>
-    <hr color="pink" size="10px">
-    <img src="pictures/3.jpg" width="300" alt="SWAG" title="SWAG">
-    <p>SWAG이 넘치는 승원이</p>
-    <hr color="pink" size="10px">
-    <img src="pictures/4.jpg" width="300" alt="BF" title="BF">
-    <p>"자기야 왜 칭얼거려"</p>
-    <hr color="pink" size="10px">
-    <img src="pictures/5.jpg" width="300" alt="young" title="young">
-    <p>어린 승원이</p>
-    <hr color="pink" size="10px">
-    <video src="pictures/V1.mp4" controls width="300" alt="노래방" title="노래방"></video>
-    <p>노래방 89점 맞은 승원이</p>
-    <hr color="pink" size="10px">
-    <video src="pictures/V2.mp4" controls width="300" alt="홈런타자(?)" title="홉런타자(?)"></video>
-    <a class="btn" href="pictures/모둠별 민요 조사하기 페이퍼.hwp" download>새벽2시에 프린터가 고장나서 못뽑은 페이퍼</a>
-</body>
+    <head>
+      <title>김승원 팬 페이지</title>
+        <meta charset="UTF-8">
+	<style>
+	a {
+  		position: relative;
+  		display: inline-block;
+  		padding: 1.2em 2em;
+  		text-decoration: none;
+  		text-align: center;
+  		cursor: pointer;
+  		-webkit-user-select: none;
+    		 -moz-user-select: none;
+    	 	 -ms-user-select: none;
+        		  user-select: none;
+  		color: white;
+	}
+	a::before {
+  		content: "";
+  		position: absolute;
+  		top: 0;
+  		left: 0;
+  		bottom: 0;
+  		right: 0;
+  		background: linear-gradient(135deg, #6e8efb, #a777e3);
+  		border-radius: 4px;
+  		transition: box-shadow 0.5s ease, transform 0.2s ease;
+  		will-change: transform;
+  		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  		transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+	}
+	a:hover::before {
+  		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	}
+	a::after {
+  		position: relative;
+  		display: inline-block;
+  		content: attr(data-title);
+  		transition: transform 0.2s ease;
+  		font-weight: bold;
+  		letter-spacing: 0.01em;
+  		will-change: transform;
+  		transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+		
+	}
+		#topBtn{
+	position: fixed;
+	right: 25px; 
+	bottom: 25px;
+	display: none;
+	z-index: 9;
+}
+
+	/*body {
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;
+  		height: 100vh;
+  		transform-style: preserve-3d;
+  		transform: perspective(800px);
+	}*/
+	</style>
+	<script>
+		window.console = window.console || function(t) {};
+	</script>
+
+	<script>
+		if (document.location.search.match(/type=embed/gi)) {
+    		window.parent.postMessage("resize", "*");
+		}
+	</script>
+    
+
+
+	</head>
+    <body translate="no">
+        
+    <center>
+      <span style=" font: italic bold 1.5em/1em Georgia, serif ; color: gray;">
+	      <br>
+          "안녕하세요
+          <br>
+          저는 공항중 얼굴을 담당하고있는 2학년 3반 김승원이라고해요
+          <br>
+          저는 주로 롤을하고요 여자친구가 있었는데 없어졌어요
+          <br>
+          너무 슬프고 우울합니다
+          <br>
+          너무 또라이같네요 죄송합니다 그만할게요
+          <br>
+          현타옵니다
+          <br>
+          드라마 보시는거 재밌게 보세요
+          <br>
+          안녕"
+        </span>
+      <p>안녕하세요! 여기는 김승원 팬 페이지입니다!</p>
+      <br>
+      <hr color="pink" size="10px">
+      <br>
+      <img src="pictures/1.jpg" width="300" alt="브이" title="브이">
+      <p>브이하는 승원이</p>
+        <br>
+      <hr color="pink" size="10px">
+        <br>
+      <img src="pictures/2.jpg" width="300" alt="하트" title="하트">
+      <p>하트하는 승원이</p>
+        <br>
+      <hr color="pink" size="10px">
+        <br>
+      <img src="pictures/3.jpg" width="300" alt="SWAG" title="SWAG">
+      <p>SWAG이 넘치는 승원이</p>
+        <br>
+      <hr color="pink" size="10px">
+        <br>
+      <img src="pictures/4.jpg" width="300" alt="BF" title="BF">
+      <p>"자기야 왜 칭얼거려"</p>
+        <br>
+      <hr color="pink" size="10px">
+        <br>
+      <img src="pictures/5.jpg" width="300" alt="young" title="young">
+      <p>어린 승원이</p>
+        <br>
+      <hr color="pink" size="10px">
+        <br>
+      <video src="pictures/V1.mp4" controls width="300" alt="노래방" title="노래방"></video>
+      <p>노래방 89점 맞은 승원이</p>
+        <br>
+      <hr color="pink" size="10px">
+        <br>
+      <video src="pictures/V2.mp4" controls width="300" alt="홈런타자(?)" title="홉런타자(?)"></video>
+        <br>
+        <hr color="pink" size="10px">
+        <br>
+      <a class="btn" href="pictures/모둠별 민요 조사하기 페이퍼.hwp" download data-title="새벽2시에 프린터가 고장나서 못뽑은 페이퍼"></a>
+	    <script>
+			window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET_DESELECTED:"ASSET_DESELECTED",ASSET_SELECTED:"ASSET_SELECTED",ASSET_UPDATED:"ASSET_UPDATED",CONSOLE_CHANGE:"CONSOLE_CHANGE",CONSOLE_CLOSED:"CONSOLE_CLOSED",CONSOLE_EVENT:"CONSOLE_EVENT",CONSOLE_OPENED:"CONSOLE_OPENED",CONSOLE_RUN_COMMAND:"CONSOLE_RUN_COMMAND",CONSOLE_SERVER_CHANGE:"CONSOLE_SERVER_CHANGE",EMBED_ACTIVE_PEN_CHANGE:"EMBED_ACTIVE_PEN_CHANGE",EMBED_ACTIVE_THEME_CHANGE:"EMBED_ACTIVE_THEME_CHANGE",EMBED_ATTRIBUTE_CHANGE:"EMBED_ATTRIBUTE_CHANGE",EMBED_RESHOWN:"EMBED_RESHOWN",FORMAT_FINISH:"FORMAT_FINISH",FORMAT_ERROR:"FORMAT_ERROR",FORMAT_START:"FORMAT_START",IFRAME_PREVIEW_RELOAD_CSS:"IFRAME_PREVIEW_RELOAD_CSS",IFRAME_PREVIEW_URL_CHANGE:"IFRAME_PREVIEW_URL_CHANGE",KEY_PRESS:"KEY_PRESS",LINTER_FINISH:"LINTER_FINISH",LINTER_START:"LINTER_START",PEN_CHANGE_SERVER:"PEN_CHANGE_SERVER",PEN_CHANGE:"PEN_CHANGE",PEN_EDITOR_CLOSE:"PEN_EDITOR_CLOSE",PEN_EDITOR_CODE_FOLD:"PEN_EDITOR_CODE_FOLD",PEN_EDITOR_ERRORS:"PEN_EDITOR_ERRORS",PEN_EDITOR_EXPAND:"PEN_EDITOR_EXPAND",PEN_EDITOR_FOLD_ALL:"PEN_EDITOR_FOLD_ALL",PEN_EDITOR_LOADED:"PEN_EDITOR_LOADED",PEN_EDITOR_REFRESH_REQUEST:"PEN_EDITOR_REFRESH_REQUEST",PEN_EDITOR_RESET_SIZES:"PEN_EDITOR_RESET_SIZES",PEN_EDITOR_SIZES_CHANGE:"PEN_EDITOR_SIZES_CHANGE",PEN_EDITOR_UI_CHANGE_SERVER:"PEN_EDITOR_UI_CHANGE_SERVER",PEN_EDITOR_UI_CHANGE:"PEN_EDITOR_UI_CHANGE",PEN_EDITOR_UI_DISABLE:"PEN_EDITOR_UI_DISABLE",PEN_EDITOR_UI_ENABLE:"PEN_EDITOR_UI_ENABLE",PEN_EDITOR_UNFOLD_ALL:"PEN_EDITOR_UNFOLD_ALL",PEN_ERROR_INFINITE_LOOP:"PEN_ERROR_INFINITE_LOOP",PEN_ERROR_RUNTIME:"PEN_ERROR_RUNTIME",PEN_ERRORS:"PEN_ERRORS",PEN_LIVE_CHANGE:"PEN_LIVE_CHANGE",PEN_LOGS:"PEN_LOGS",PEN_MANIFEST_CHANGE:"PEN_MANIFEST_CHANGE",PEN_MANIFEST_FULL:"PEN_MANIFEST_FULL",PEN_PREVIEW_FINISH:"PEN_PREVIEW_FINISH",PEN_PREVIEW_START:"PEN_PREVIEW_START",PEN_SAVED:"PEN_SAVED",POPUP_CLOSE:"POPUP_CLOSE",POPUP_OPEN:"POPUP_OPEN",POST_CHANGE:"POST_CHANGE",POST_SAVED:"POST_SAVED",PROCESSING_FINISH:"PROCESSING_FINISH",PROCESSING_START:"PROCESSED_STARTED"},"object"!=typeof window.CP&&(window.CP={}),window.CP.PenTimer={programNoLongerBeingMonitored:!1,timeOfFirstCallToShouldStopLoop:0,_loopExits:{},_loopTimers:{},START_MONITORING_AFTER:2e3,STOP_ALL_MONITORING_TIMEOUT:5e3,MAX_TIME_IN_LOOP_WO_EXIT:2200,exitedLoop:function(E){this._loopExits[E]=!0},shouldStopLoop:function(E){if(this.programKilledSoStopMonitoring)return!0;if(this.programNoLongerBeingMonitored)return!1;if(this._loopExits[E])return!1;var _=this._getTime();if(0===this.timeOfFirstCallToShouldStopLoop)return this.timeOfFirstCallToShouldStopLoop=_,!1;var o=_-this.timeOfFirstCallToShouldStopLoop;if(o<this.START_MONITORING_AFTER)return!1;if(o>this.STOP_ALL_MONITORING_TIMEOUT)return this.programNoLongerBeingMonitored=!0,!1;try{this._checkOnInfiniteLoop(E,_)}catch(N){return this._sendErrorMessageToEditor(),this.programKilledSoStopMonitoring=!0,!0}return!1},_sendErrorMessageToEditor:function(){try{if(this._shouldPostMessage()){var E={topic:HUB_EVENTS.PEN_ERROR_INFINITE_LOOP,data:{line:this._findAroundLineNumber()}};parent.postMessage(E,"*")}else this._throwAnErrorToStopPen()}catch(_){this._throwAnErrorToStopPen()}},_shouldPostMessage:function(){return document.location.href.match(/boomerang/)},_throwAnErrorToStopPen:function(){throw"We found an infinite loop in your Pen. We've stopped the Pen from running. Please correct it or contact support@codepen.io."},_findAroundLineNumber:function(){var E=new Error,_=0;if(E.stack){var o=E.stack.match(/boomerang\S+:(\d+):\d+/);o&&(_=o[1])}return _},_checkOnInfiniteLoop:function(E,_){if(!this._loopTimers[E])return this._loopTimers[E]=_,!1;var o;if(_-this._loopTimers[E]>this.MAX_TIME_IN_LOOP_WO_EXIT)throw"Infinite Loop found on loop: "+E},_getTime:function(){return+new Date}},window.CP.shouldStopExecution=function(E){var _=window.CP.PenTimer.shouldStopLoop(E);return!0===_&&console.warn("[CodePen]: An infinite loop (or a loop taking too long) was detected, so we stopped its execution. Sorry!"),_},window.CP.exitedLoop=function(E){window.CP.PenTimer.exitedLoop(E)};
+		</script>
+		<script id="rendered-js">
+			const docStyle = document.documentElement.style;
+			const aElem = document.querySelector('a');
+			const boundingClientRect = aElem.getBoundingClientRect();
+
+			aElem.onmousemove = function (e) {
+
+				const x = e.clientX - boundingClientRect.left;
+				const y = e.clientY - boundingClientRect.top;
+
+				const xc = boundingClientRect.width / 2;
+				const yc = boundingClientRect.height / 2;
+
+				const dx = x - xc;
+				const dy = y - yc;
+
+				docStyle.setProperty('--rx', `${dy / -1}deg`);
+				docStyle.setProperty('--ry', `${dx / 10}deg`);
+
+			};
+
+			aElem.onmouseleave = function (e) {
+
+				docStyle.setProperty('--ty', '0');
+				docStyle.setProperty('--rx', '0');
+				docStyle.setProperty('--ry', '0');
+
+			};
+
+			aElem.onmousedown = function (e) {
+
+				docStyle.setProperty('--tz', '-25px');
+
+			};
+
+			document.body.onmouseup = function (e) {
+
+				docStyle.setProperty('--tz', '-12px');
+
+			};
+		</script>
+	    </center>
+	</body>
 </html> 
